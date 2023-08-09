@@ -1,6 +1,6 @@
 import * as common from "@nestjs/common";
 import * as swagger from "@nestjs/swagger";
-import * as nestAccessControl from "nest-access-control";
+import * as nestAccessControl from "@amplication/nest-access-control";
 import { UserService } from "./user.service";
 import { UserControllerBase } from "./base/user.controller.base";
 

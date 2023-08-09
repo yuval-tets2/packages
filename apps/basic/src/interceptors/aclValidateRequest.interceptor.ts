@@ -5,7 +5,10 @@ import {
   NestInterceptor,
 } from "@nestjs/common";
 import { Observable } from "rxjs";
-import { InjectRolesBuilder, RolesBuilder } from "nest-access-control";
+import {
+  InjectRolesBuilder,
+  RolesBuilder,
+} from "@amplication/nest-access-control";
 import { Reflector } from "@nestjs/core";
 import * as abacUtil from "../auth/abac.util";
 import { ForbiddenException } from "../errors";

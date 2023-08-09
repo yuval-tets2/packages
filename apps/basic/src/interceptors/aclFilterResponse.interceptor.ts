@@ -6,7 +6,7 @@ import {
 } from "@nestjs/common";
 import { Observable } from "rxjs";
 import { map } from "rxjs/operators";
-import { InjectRolesBuilder, RolesBuilder } from "nest-access-control";
+import { InjectRolesBuilder, RolesBuilder } from "@amplication/nest-access-control";
 import { Reflector } from "@nestjs/core";
 
 @Injectable()

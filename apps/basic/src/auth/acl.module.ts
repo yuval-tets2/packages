@@ -1,4 +1,7 @@
-import { AccessControlModule, RolesBuilder } from "nest-access-control";
+import {
+  AccessControlModule,
+  RolesBuilder,
+} from "@amplication/nest-access-control";
 // @ts-ignore
 // eslint-disable-next-line import/no-unresolved
 import grants from "../grants.json";
